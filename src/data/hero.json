@@ -17,6 +17,13 @@
       "id": "technologies",
       "value": "4+",
       "label": "Technologies"
+    },
+    {
+      "id": "resume",
+      "value": "Resume",
+      "label": "View My Resume",
+      "href": "/assets/resume/version1/Alwin_SDET.html",
+      "target": "_blank"
     }
   ],
   "cta": [

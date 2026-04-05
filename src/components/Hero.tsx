@@ -26,6 +26,19 @@ const SVGIcons: { [key: string]: React.ReactNode } = {
       <path d="M3 8L10.89 4.26a2 2 0 012.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
     </svg>
   ),
+  file: (
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+    >
+      <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
+      <polyline points="14 2 14 8 20 8" />
+    </svg>
+  ),
 };
 
 export default function Hero() {
@@ -51,20 +64,50 @@ export default function Hero() {
         </div>
 
         {/* Stats with new card design */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 max-w-2xl mx-auto mb-6 sm:mb-8">
-          {heroData.stats.map((stat) => (
-            <div
-              key={stat.id}
-              className="bg-surface border border-border rounded-2xl p-6 hover:border-accent/50 transition-colors"
-            >
-              <div className="text-3xl font-bold text-accent mb-2">
-                {stat.value}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 max-w-4xl mx-auto mb-6 sm:mb-8">
+          {heroData.stats.map((stat) => {
+            // Handle basePath for static assets in production vs development
+            const href =
+              stat.href && stat.href.startsWith("/assets/")
+                ? typeof window !== "undefined" &&
+                  window.location.pathname.startsWith("/myportfolio/")
+                  ? `/myportfolio${stat.href}`
+                  : stat.href
+                : stat.href;
+
+            return stat.href ? (
+              <a
+                key={stat.id}
+                href={href}
+                target={stat.target}
+                className="bg-surface border border-border rounded-2xl p-6 hover:border-accent/50 transition-colors hover:shadow-lg hover:shadow-accent/10 hover:-translate-y-1 group cursor-pointer"
+              >
+                <div className="flex items-center justify-center mb-2">
+                  <div className="text-accent group-hover:scale-110 transition-transform">
+                    {SVGIcons.file}
+                  </div>
+                </div>
+                <div className="text-lg font-bold text-accent mb-1">
+                  {stat.value}
+                </div>
+                <div className="text-sm text-text2 uppercase tracking-wide">
+                  {stat.label}
+                </div>
+              </a>
+            ) : (
+              <div
+                key={stat.id}
+                className="bg-surface border border-border rounded-2xl p-6 hover:border-accent/50 transition-colors"
+              >
+                <div className="text-3xl font-bold text-accent mb-2">
+                  {stat.value}
+                </div>
+                <div className="text-sm text-text2 uppercase tracking-wide">
+                  {stat.label}
+                </div>
               </div>
-              <div className="text-sm text-text2 uppercase tracking-wide">
-                {stat.label}
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* CTA buttons with new design */}
