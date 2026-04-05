@@ -1,0 +1,78 @@
+{
+  "label": "About Me",
+  "title": "Passionate About",
+  "titleAccent": "Creating Impact",
+  "description": "With 10+ years in automation testing, I'm transitioning into full-stack development, building user-centric applications that solve real problems.",
+  "skillCategories": [
+    {
+      "id": "frontend",
+      "category": "Frontend",
+      "icon": "🎨",
+      "skills": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "HTML5",
+        "CSS3",
+        "JavaScript ES6+"
+      ]
+    },
+    {
+      "id": "backend",
+      "category": "Backend",
+      "icon": "⚙️",
+      "skills": [
+        "Node.js",
+        "Express.js",
+        "REST APIs",
+        "GraphQL",
+        "JWT Authentication"
+      ]
+    },
+    {
+      "id": "database",
+      "category": "Database",
+      "icon": "🗄️",
+      "skills": ["MongoDB", "Mongoose", "PostgreSQL", "Redis"]
+    },
+    {
+      "id": "mobile",
+      "category": "Mobile",
+      "icon": "📱",
+      "skills": ["React Native", "Expo", "AsyncStorage"]
+    },
+    {
+      "id": "testing",
+      "category": "Testing",
+      "icon": "🧪",
+      "skills": ["Playwright", "Selenium", "Jest", "Cypress", "BDD (Cucumber)"]
+    },
+    {
+      "id": "devops",
+      "category": "DevOps",
+      "icon": "🚀",
+      "skills": ["Git", "GitHub", "Docker", "CI/CD", "Vercel", "Netlify"]
+    }
+  ],
+  "journey": [
+    {
+      "id": "quality",
+      "icon": "🎯",
+      "title": "Quality First",
+      "description": "My background in SDET has instilled a deep commitment to quality, performance, and user experience in everything I build."
+    },
+    {
+      "id": "fullstack",
+      "icon": "🚀",
+      "title": "Full-Stack Focus",
+      "description": "I enjoy working across the entire stack, from database design to user interface, ensuring seamless integration and optimal performance."
+    },
+    {
+      "id": "innovation",
+      "icon": "💡",
+      "title": "Innovation Driven",
+      "description": "I'm passionate about leveraging new technologies to create innovative solutions that make a real difference for users."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Ready to",
+  "titleAccent": "Build Together",
+  "description": "Open to full stack development roles, collaborations, and freelance projects. Let's connect and create something amazing!",
+  "label": "Let's Connect",
+  "contacts": [
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "icon": "whatsapp",
+      "value": "+919043365282",
+      "href": "https://wa.me/919043365282",
+      "target": "_blank"
+    },
+    {
+      "id": "email",
+      "name": "Email",
+      "icon": "envelope",
+      "value": "alwsan24@gmail.com",
+      "href": "mailto:alwsan24@gmail.com",
+      "target": null
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "icon": "github",
+      "value": "@AutomationBlog",
+      "href": "https://github.com/AutomationBlog",
+      "target": "_blank"
+    },
+    {
+      "id": "resume",
+      "name": "Resume",
+      "icon": "file",
+      "value": "View Resume",
+      "href": "/assets/resume/version1/Alwin_SDET.html",
+      "target": "_blank"
+    }
+  ]
+}

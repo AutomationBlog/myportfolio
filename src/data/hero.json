@@ -1,0 +1,37 @@
+{
+  "name": "Alwin Santhosh S",
+  "subtitle": "SDET with 10+ years of experience",
+  "description": "Transitioning to MERN Full-Stack Development",
+  "stats": [
+    {
+      "id": "experience",
+      "value": "10+",
+      "label": "Years Experience"
+    },
+    {
+      "id": "projects",
+      "value": "6+",
+      "label": "Projects Built"
+    },
+    {
+      "id": "technologies",
+      "value": "4+",
+      "label": "Technologies"
+    }
+  ],
+  "cta": [
+    {
+      "id": "work",
+      "text": "View My Work",
+      "href": "#projects",
+      "icon": "arrow"
+    },
+    {
+      "id": "contact",
+      "text": "Get In Touch",
+      "href": "#contact",
+      "icon": "email",
+      "variant": "outline"
+    }
+  ]
+}

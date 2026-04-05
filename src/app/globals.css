@@ -1,26 +1,87 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: #fafafa;
+  --bg2: #f7f7f7;
+  --bg3: #f0f0f0;
+  --surface: #ffffff;
+  --border: rgba(0, 0, 0, 0.08);
+  --accent: #f97316;
+  --accent2: #ea580c;
+  --accent3: #dc2626;
+  --text: #1a1a1a;
+  --text2: #4a4a4a;
+  --text3: #6b6b6b;
+}
+
+[data-theme="dark"] {
+  --bg: #1a1a1a;
+  --bg2: #2a2a2a;
+  --bg3: #3a3a3a;
+  --surface: #2a2a2a;
+  --border: rgba(255, 255, 255, 0.1);
+  --accent: #fb923c;
+  --accent2: #f97316;
+  --accent3: #dc2626;
+  --text: #fefefe;
+  --text2: #d4d4d4;
+  --text3: #a3a3a3;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--bg);
+  --color-bg2: var(--bg2);
+  --color-bg3: var(--bg3);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent2: var(--accent2);
+  --color-accent3: var(--accent3);
+  --color-text: var(--text);
+  --color-text2: var(--text2);
+  --color-text3: var(--text3);
+  --font-display: "Syne", sans-serif;
+  --font-mono: "DM Mono", monospace;
+  --font-sans: "DM Sans", sans-serif;
+  --animate-fadeUp: fadeUp 0.6s ease both;
+  --animate-pulse-custom: pulse 2s infinite;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+[data-theme="light"] nav {
+  background: rgba(250, 250, 250, 0.95);
+  border-color: rgba(249, 115, 22, 0.1);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(0.8);
+  }
 }

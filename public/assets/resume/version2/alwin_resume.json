@@ -1,0 +1,126 @@
+{
+  "personal_information": {
+    "name": "Alwin Santhosh S",
+    "email": "alwsan24@gmail.com",
+    "phone": "+91 - 90 4336 5282",
+    "portfolio": "https://automationblog.github.io/myprofile",
+    "linkedin": "https://linkedin.com/in/alwin-santhosh-3190ba12b"
+  },
+  "profile": "Over 10+ years of progressive working experience as a Software Quality Assurance Engineer and Software Test Engineer. Automated Software Quality Assurance Testing of client- server, web-based applications, DB and API testing. Complete understanding of QA methodologies.",
+  "automation_skills": {
+    "programming_languages": [
+      "Node.js",
+      "JavaScript",
+      "TypeScript",
+      "Core Java"
+    ],
+    "automation_testing_tools": [
+      "Nightwatch JS",
+      "Playwright",
+      "Axios",
+      "Selenium",
+      "Postman",
+      "REST-Assured"
+    ],
+    "frameworks": ["TestNG", "POM", "Cucumber(BDD)"]
+  },
+  "fsd_skills": {
+    "html_css": "Proficient",
+    "nodejs_javascript": "Advanced",
+    "reactjs_expressjs": "Proficient",
+    "mongodb": "Proficient"
+  },
+  "work_experience": [
+    {
+      "position": "Quality Assurance",
+      "company": "Tata Consultancy Services",
+      "duration": "Feb 2022 - Present",
+      "responsibilities": [
+        "Create Test plan, Test Case for both Manual and Automation testing.",
+        "API automation testing using Axios and Postman.",
+        "Automated E2E UI testing using Nightwatch JS and Cucumber JS.",
+        "DevOps jobs scheduled for Smoke and Regression Test.",
+        "Working in Agile - Scrum sprint environment."
+      ]
+    },
+    {
+      "position": "Sr. Quality Engineer",
+      "company": "Cognizant Technology Solutions",
+      "duration": "Apr 2019 - Jan 2022",
+      "responsibilities": [
+        "API automation testing using REST-Assured and Postman.",
+        "Working on Scaled Agile(SAFe) scrum based model.",
+        "Automated E2E UI testing using Puppeteer and Chrome DevTools.",
+        "Jenkins jobs created for Health check and Regression Test.",
+        "Handled four member team."
+      ]
+    },
+    {
+      "position": "Test Engineer",
+      "company": "Infosys Limited",
+      "duration": "Nov 2016 - Mar 2019",
+      "responsibilities": [
+        "Involved in Automation Infrastructure Development using Selenium with Java.",
+        "Mobile device Testing using Selenium and Perfecto Cloud.",
+        "Web services Testing both SOAP/REST using Postman and Apache HttpClient.",
+        "Worked on agile scrum based methods for BDD.",
+        "Working in Keyword Driven and Data Driven Framework with Maven."
+      ]
+    },
+    {
+      "position": "Quality Executive",
+      "company": "Emantras Interactive Technologies Pvt Ltd",
+      "duration": "Jun 2014 - Aug 2016",
+      "responsibilities": [
+        "Write Test cases using Element locators, WebDriver methods, Java programming features and TestNG Annotations.",
+        "Worked in Data driven Testing, Cross browser testing and Parallel Test execution using Selenium WebDriver, TestNG.",
+        "Test Execution and Debugging and reporting Defects(JIRA)."
+      ]
+    },
+    {
+      "position": "Technical Consultant",
+      "company": "Onward eServices Ltd.",
+      "duration": "Oct 2013 - Apr 2014",
+      "responsibilities": [
+        "Worked in Linux environment",
+        "Technical Support to the Client"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "project_name": "Marketing",
+      "client": "Nation Star Mortgage NSM (Mr. Cooper)",
+      "role": "QA - Team Lead",
+      "description": [
+        "Showcasing various loan types with clear descriptions.",
+        "Implementing a dynamic lead form to capture user needs and requirements for personalized loan matching.",
+        "Integrating interactive banners to prominently display limited-time discount offers.",
+        "Creating dedicated landing pages (event pages) for special occupational groups to access exclusive loan programs and information."
+      ]
+    },
+    {
+      "project_name": "Origination",
+      "client": "Nation Star Mortgage NSM (Mr. Cooper)",
+      "role": "QA - Team Lead",
+      "description": [
+        "Loan origination happens through Purchase or Refinance applications.",
+        "After application submission, customers must complete the Blend 1003 (third-party application).",
+        "Submitting the Blend 1003 generates a loan in Encompass, which contains multiple milestones handled by Mortgage Professionals (MPs).",
+        "Once all milestones are completed and the loan is funded, it becomes a servicing loan."
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "ISTQB Foundation Level",
+      "date": "Jan 2017"
+    }
+  ],
+  "courses": [
+    {
+      "name": "GUVI - MERN Full stack Development",
+      "date": "Aug 2024"
+    }
+  ]
+}

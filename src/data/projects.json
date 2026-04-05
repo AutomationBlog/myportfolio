@@ -1,0 +1,74 @@
+{
+  "label": "My Work",
+  "title": "Featured",
+  "titleAccent": "Projects",
+  "description": "A collection of applications I've built, showcasing my journey from automation testing to full-stack development.",
+  "projects": [
+    {
+      "id": "ai-finance",
+      "icon": "💰",
+      "title": "AI Personal Finance App",
+      "description": "Comprehensive personal finance management with AI-powered expense categorization, intelligent budgeting, receipt scanning, and financial health reports.",
+      "status": "In Progress",
+      "statusColor": "bg-blue-500/10 text-blue-600 border-blue-500/20",
+      "tech": ["MERN Stack", "AI/ML", "Receipt OCR", "Charts.js"],
+      "github": "https://github.com/AutomationBlog/ai-finance-app",
+      "demo": "#"
+    },
+    {
+      "id": "gas-booking",
+      "icon": "🏠",
+      "title": "Gas Booking System",
+      "description": "Full-stack application for gas cylinder booking with real-time inventory, payment integration, and delivery tracking.",
+      "status": "Completed",
+      "statusColor": "bg-green-500/10 text-green-600 border-green-500/20",
+      "tech": ["React", "Node.js", "MongoDB", "Stripe"],
+      "github": "https://github.com/AutomationBlog/gas-booking-frontend",
+      "demo": "https://gas-booking.netlify.app/"
+    },
+    {
+      "id": "auth-system",
+      "icon": "🔐",
+      "title": "Authentication System",
+      "description": "Secure authentication system with JWT, email verification, password reset, and role-based access control.",
+      "status": "Completed",
+      "statusColor": "bg-green-500/10 text-green-600 border-green-500/20",
+      "tech": ["React", "Node.js", "JWT", "bcrypt", "MongoDB"],
+      "github": "https://github.com/AutomationBlog/auth-frontend",
+      "demo": "https://auth-system.netlify.app/"
+    },
+    {
+      "id": "notes-blog",
+      "icon": "📝",
+      "title": "Notes/Blog App",
+      "description": "Feature-rich notes application with rich text editor, categories, search, and cloud synchronization.",
+      "status": "Completed",
+      "statusColor": "bg-green-500/10 text-green-600 border-green-500/20",
+      "tech": ["MERN Stack", "Rich Text Editor", "Cloud Storage"],
+      "github": "https://github.com/AutomationBlog/notes-frontend",
+      "demo": "https://notes-blog.netlify.app/"
+    },
+    {
+      "id": "invoice-generator",
+      "icon": "📄",
+      "title": "Invoice Generator",
+      "description": "Generate, manage, and download invoices as PDF with email notifications and full invoice lifecycle management.",
+      "status": "Completed",
+      "statusColor": "bg-green-500/10 text-green-600 border-green-500/20",
+      "tech": ["React", "Node.js", "PDF", "Nodemailer", "MongoDB"],
+      "github": "https://github.com/AutomationBlog/invoice_frontend",
+      "demo": "https://invoice-blog.netlify.app/"
+    },
+    {
+      "id": "playwright-framework",
+      "icon": "🧪",
+      "title": "Playwright E2E Framework",
+      "description": "Production-ready E2E automation framework built with Playwright, Cucumber BDD, and TypeScript including CI/CD integration.",
+      "status": "Completed",
+      "statusColor": "bg-green-500/10 text-green-600 border-green-500/20",
+      "tech": ["Playwright", "TypeScript", "Cucumber", "BDD", "CI/CD"],
+      "github": "https://github.com/AutomationBlog/Playwright_Automation_Framework",
+      "demo": "#"
+    }
+  ]
+}

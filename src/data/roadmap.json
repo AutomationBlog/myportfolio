@@ -1,0 +1,88 @@
+{
+  "label": "My Journey",
+  "title": "Learning",
+  "titleAccent": "Roadmap",
+  "description": "My progression from automation testing to full-stack development, with clear milestones and upcoming goals.",
+  "phases": [
+    {
+      "id": "foundation",
+      "icon": "🏗️",
+      "phase": "Foundation",
+      "status": "Completed",
+      "statusColor": "bg-green-500/10 text-green-600 border-green-500/20",
+      "description": "Built solid foundations in modern JavaScript, React ecosystem, and backend development.",
+      "skills": [
+        {
+          "name": "JavaScript ES6+",
+          "desc": "Closures, event loop, async/await, Promises"
+        },
+        {
+          "name": "React",
+          "desc": "Hooks, Context API, React Router, React Query"
+        },
+        {
+          "name": "Node.js + Express",
+          "desc": "REST APIs, middleware, JWT auth"
+        },
+        {
+          "name": "MongoDB",
+          "desc": "Mongoose ODM, aggregation, Atlas cloud"
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "icon": "🚀",
+      "phase": "Advanced Skills",
+      "status": "In Progress",
+      "statusColor": "bg-blue-500/10 text-blue-600 border-blue-500/20",
+      "description": "Deepening expertise in TypeScript and Next.js while building production-ready applications.",
+      "skills": [
+        {
+          "name": "TypeScript",
+          "desc": "Types, interfaces, generics, utility types, TS with React & Node"
+        },
+        {
+          "name": "Next.js",
+          "desc": "App Router, SSR, SSG, ISR, API routes, NextAuth, Vercel deploy"
+        }
+      ]
+    },
+    {
+      "id": "multiplatform",
+      "icon": "📱",
+      "phase": "Multi-Platform Development",
+      "status": "Planned",
+      "statusColor": "bg-gray-500/10 text-gray-600 border-gray-500/20",
+      "description": "Expanding into mobile and browser extension development to create comprehensive user experiences.",
+      "skills": [
+        {
+          "name": "React Native",
+          "desc": "Expo, navigation, device APIs, AsyncStorage, mobile deployment"
+        },
+        {
+          "name": "WXT Extensions",
+          "desc": "Browser extensions with React + TypeScript, content scripts, Manifest V3"
+        }
+      ]
+    },
+    {
+      "id": "flagship",
+      "icon": "💰",
+      "phase": "Flagship Project",
+      "status": "Next Milestone",
+      "statusColor": "bg-orange-500/10 text-orange-600 border-orange-500/20",
+      "description": "Building a comprehensive AI-powered personal finance application across multiple platforms.",
+      "skills": [
+        {
+          "name": "AI Finance App",
+          "desc": "MERN + Next.js + React Native + WXT + Claude AI"
+        }
+      ],
+      "isFlagship": true,
+      "flagshipTitle": "AI Personal Finance App",
+      "flagshipSubtitle": "Comprehensive finance management with AI features",
+      "flagshipDescription": "A complete personal finance management system with AI-powered expense categorization, intelligent budgeting, receipt scanning, financial health reports, and cross-platform synchronization."
+    }
+  ]
+}
