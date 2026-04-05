@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 20px;
+}
+
+.resume-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    display: grid;
+    grid-template-columns: 1fr 2.2fr;
+    min-height: 100vh;
+}
+
+/* Left Sidebar */
+.sidebar {
+    background: linear-gradient(180deg, #2c3e50 0%, #34495e 100%);
+    color: #ecf0f1;
+    padding: 40px 30px;
+}
+
+.header {
+    margin-bottom: 40px;
+    text-align: center;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #3498db;
+}
+
+.header p {
+    font-size: 13px;
+    color: #bdc3c7;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.contact-info span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    word-break: break-word;
+}
+
+.sidebar-section h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    color: #3498db;
+    text-transform: uppercase;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 8px;
+}
+
+.sidebar-section:first-of-type {
+    margin-top: 0;
+}
+
+.skill-item {
+    margin-bottom: 12px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.skill-item strong {
+    display: block;
+    color: #fff;
+    margin-bottom: 3px;
+}
+
+.skill-bar {
+    background: rgba(255, 255, 255, 0.2);
+    height: 5px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top: 4px;
+}
+
+.skill-level {
+    height: 100%;
+    background: linear-gradient(90deg, #3498db, #2ecc71);
+    border-radius: 3px;
+}
+
+/* Main Content */
+.main-content {
+    padding: 40px 35px;
+}
+
+.main-content h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2c3e50;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #3498db;
+    letter-spacing: 0.5px;
+}
+
+.main-content h2:first-child {
+    margin-top: 0;
+}
+
+.section-content p {
+    font-size: 13px;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.job-entry {
+    margin-bottom: 18px;
+}
+
+.job-title {
+    font-weight: 700;
+    font-size: 14px;
+    color: #2c3e50;
+    margin-bottom: 2px;
+}
+
+.company {
+    font-size: 12px;
+    color: #3498db;
+    font-weight: 600;
+    display: inline;
+    margin-right: 5px;
+}
+
+.date-range {
+    font-size: 12px;
+    color: #7f8c8d;
+    font-style: italic;
+    display: inline;
+}
+
+.job-description {
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.job-description ul {
+    margin: 8px 0;
+    padding-left: 18px;
+    list-style-type: disc;
+}
+
+.job-description li {
+    margin-bottom: 4px;
+    color: #555;
+}
+
+.project-entry {
+    margin-bottom: 16px;
+}
+
+.project-title {
+    font-weight: 700;
+    font-size: 14px;
+    color: #2c3e50;
+    margin-bottom: 4px;
+}
+
+.project-meta {
+    font-size: 11px;
+    color: #7f8c8d;
+    margin-bottom: 6px;
+}
+
+.project-description ul {
+    margin: 6px 0;
+    padding-left: 18px;
+    list-style-type: disc;
+    font-size: 12px;
+}
+
+.project-description li {
+    margin-bottom: 3px;
+    color: #555;
+}
+
+@media (max-width: 1024px) {
+    .resume-container {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        padding: 30px;
+    }
+
+    .main-content {
+        padding: 30px;
+    }
+}
+
+@media print {
+    body {
+        background: #fff;
+        padding: 0;
+    }
+
+    .resume-container {
+        box-shadow: none;
+        grid-template-columns: 1fr 2.2fr;
+        min-height: auto;
+    }
+
+    .print-note {
+        display: none;
+    }
+}
