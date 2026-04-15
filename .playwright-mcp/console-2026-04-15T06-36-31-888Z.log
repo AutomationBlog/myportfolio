@@ -1,0 +1,4 @@
+[      -3ms] [ERROR] Unrecognized Content-Security-Policy directive 'prefetch-src'. @ https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site:0
+[     212ms] [LOG] Experiment readability_copilot is in the "treatment" group for this browser.
+Call function window.overrideControlGroup('readability_copilot', 'treatment' | 'control') to change your group for this session. @ https://docs.github.com/_next/static/chunks/pages/_app-cbb6f7a92a7ce7d4.js:14
+[     226ms] [ERROR] Failed to load resource: net::ERR_ADDRESS_INVALID @ https://collector.githubapp.com/docs/collect:0

@@ -67,7 +67,7 @@ export default function Contact() {
           const href =
             contact.href && contact.href.startsWith("/assets/")
               ? typeof window !== "undefined" &&
-                window.location.pathname.startsWith("/myportfolio/")
+                window.location.pathname.startsWith("/myportfolio")
                 ? `/myportfolio${contact.href}`
                 : contact.href
               : contact.href;

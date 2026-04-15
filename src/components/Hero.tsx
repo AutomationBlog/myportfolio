@@ -87,7 +87,7 @@ export default function Hero() {
             const href =
               button.href && button.href.startsWith("/assets/")
                 ? typeof window !== "undefined" &&
-                  window.location.pathname.startsWith("/myportfolio/")
+                  window.location.pathname.startsWith("/myportfolio")
                   ? `/myportfolio${button.href}`
                   : button.href
                 : button.href;
