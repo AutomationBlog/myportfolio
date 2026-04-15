@@ -27,14 +27,6 @@
       "value": "@AutomationBlog",
       "href": "https://github.com/AutomationBlog",
       "target": "_blank"
-    },
-    {
-      "id": "resume",
-      "name": "Resume",
-      "icon": "file",
-      "value": "View Resume",
-      "href": "/assets/resume/version1/Alwin_SDET.html",
-      "target": "_blank"
     }
   ]
 }

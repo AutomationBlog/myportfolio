@@ -64,7 +64,7 @@ export default function Hero() {
         </div>
 
         {/* Stats with new card design */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 max-w-4xl mx-auto mb-6 sm:mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 max-w-4xl mx-auto mb-6 sm:mb-8">
           {heroData.stats.map((stat) => {
             // Handle basePath for static assets in production vs development
             const href =
@@ -112,20 +112,35 @@ export default function Hero() {
 
         {/* CTA buttons with new design */}
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
-          {heroData.cta.map((button) => (
-            <a
-              key={button.id}
-              href={button.href}
-              className={`inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl font-semibold transition-all duration-300 ${
-                button.variant === "outline"
-                  ? "border-2 border-accent text-accent hover:bg-accent hover:text-white"
-                  : "bg-accent text-white hover:bg-accent2 hover:-translate-y-1 shadow-lg hover:shadow-xl"
-              }`}
-            >
-              {button.text}
-              {SVGIcons[button.icon]}
-            </a>
-          ))}
+          {heroData.cta.map((button) => {
+            // Handle basePath for static assets in production vs development
+            const href =
+              button.href && button.href.startsWith("/assets/")
+                ? typeof window !== "undefined" &&
+                  window.location.pathname.startsWith("/myportfolio/")
+                  ? `/myportfolio${button.href}`
+                  : button.href
+                : button.href;
+
+            return (
+              <a
+                key={button.id}
+                href={href}
+                target={button.target || undefined}
+                rel={
+                  button.target === "_blank" ? "noopener noreferrer" : undefined
+                }
+                className={`inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl font-semibold transition-all duration-300 ${
+                  button.variant === "outline"
+                    ? "border-2 border-accent text-accent hover:bg-accent hover:text-white"
+                    : "bg-accent text-white hover:bg-accent2 hover:-translate-y-1 shadow-lg hover:shadow-xl"
+                }`}
+              >
+                {button.text}
+                {SVGIcons[button.icon]}
+              </a>
+            );
+          })}
         </div>
 
         {/* Scroll indicator */}

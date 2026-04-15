@@ -1,0 +1,365 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - link "alwin.dev" [ref=e4] [cursor=pointer]:
+      - /url: /myportfolio
+    - generic [ref=e5]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Home" [ref=e8] [cursor=pointer]:
+            - /url: /myportfolio
+        - listitem [ref=e9]:
+          - link "About" [ref=e10] [cursor=pointer]:
+            - /url: "#about"
+        - listitem [ref=e11]:
+          - link "Projects" [ref=e12] [cursor=pointer]:
+            - /url: "#projects"
+        - listitem [ref=e13]:
+          - link "Roadmap" [ref=e14] [cursor=pointer]:
+            - /url: "#roadmap"
+        - listitem [ref=e15]:
+          - link "Contact" [ref=e16] [cursor=pointer]:
+            - /url: "#contact"
+      - button "Switch to light mode" [ref=e17] [cursor=pointer]:
+        - img [ref=e18]
+        - generic [ref=e24]: Light
+  - main [ref=e25]:
+    - generic [ref=e27]:
+      - heading "Alwin Santhosh S" [level=1] [ref=e29]
+      - generic [ref=e31]:
+        - paragraph [ref=e32]: SDET with 10+ years of experience
+        - paragraph [ref=e33]: Transitioning to MERN Full-Stack Development
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - generic [ref=e36]: 10+
+          - generic [ref=e37]: Years Experience
+        - generic [ref=e38]:
+          - generic [ref=e39]: 6+
+          - generic [ref=e40]: Projects Built
+        - generic [ref=e41]:
+          - generic [ref=e42]: 4+
+          - generic [ref=e43]: Technologies
+        - link "Resume View My Resume" [ref=e44] [cursor=pointer]:
+          - /url: /assets/resume/version1/Alwin_SDET.html
+          - img [ref=e47]
+          - generic [ref=e50]: Resume
+          - generic [ref=e51]: View My Resume
+      - generic [ref=e52]:
+        - link "View My Work" [ref=e53] [cursor=pointer]:
+          - /url: "#projects"
+          - text: View My Work
+          - img [ref=e54]
+        - link "Get In Touch" [ref=e56] [cursor=pointer]:
+          - /url: "#contact"
+          - text: Get In Touch
+          - img [ref=e57]
+      - img [ref=e60]
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e65]: About Me
+        - heading "Passionate About Creating Impact" [level=2] [ref=e67]:
+          - text: Passionate About
+          - text: Creating Impact
+        - paragraph [ref=e68]: With 10+ years in automation testing, I'm transitioning into full-stack development, building user-centric applications that solve real problems.
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - generic [ref=e72]: 🎨
+            - heading "Frontend" [level=3] [ref=e73]
+          - generic [ref=e74]:
+            - generic [ref=e75]: React
+            - generic [ref=e76]: Next.js
+            - generic [ref=e77]: TypeScript
+            - generic [ref=e78]: Tailwind CSS
+            - generic [ref=e79]: HTML5
+            - generic [ref=e80]: CSS3
+            - generic [ref=e81]: JavaScript ES6+
+        - generic [ref=e82]:
+          - generic [ref=e83]:
+            - generic [ref=e84]: ⚙️
+            - heading "Backend" [level=3] [ref=e85]
+          - generic [ref=e86]:
+            - generic [ref=e87]: Node.js
+            - generic [ref=e88]: Express.js
+            - generic [ref=e89]: REST APIs
+            - generic [ref=e90]: GraphQL
+            - generic [ref=e91]: JWT Authentication
+        - generic [ref=e92]:
+          - generic [ref=e93]:
+            - generic [ref=e94]: 🗄️
+            - heading "Database" [level=3] [ref=e95]
+          - generic [ref=e96]:
+            - generic [ref=e97]: MongoDB
+            - generic [ref=e98]: Mongoose
+            - generic [ref=e99]: PostgreSQL
+            - generic [ref=e100]: Redis
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - generic [ref=e103]: 📱
+            - heading "Mobile" [level=3] [ref=e104]
+          - generic [ref=e105]:
+            - generic [ref=e106]: React Native
+            - generic [ref=e107]: Expo
+            - generic [ref=e108]: AsyncStorage
+        - generic [ref=e109]:
+          - generic [ref=e110]:
+            - generic [ref=e111]: 🧪
+            - heading "Testing" [level=3] [ref=e112]
+          - generic [ref=e113]:
+            - generic [ref=e114]: Playwright
+            - generic [ref=e115]: Selenium
+            - generic [ref=e116]: Jest
+            - generic [ref=e117]: Cypress
+            - generic [ref=e118]: BDD (Cucumber)
+        - generic [ref=e119]:
+          - generic [ref=e120]:
+            - generic [ref=e121]: 🚀
+            - heading "DevOps" [level=3] [ref=e122]
+          - generic [ref=e123]:
+            - generic [ref=e124]: Git
+            - generic [ref=e125]: GitHub
+            - generic [ref=e126]: Docker
+            - generic [ref=e127]: CI/CD
+            - generic [ref=e128]: Vercel
+            - generic [ref=e129]: Netlify
+      - generic [ref=e131]:
+        - heading "My Journey" [level=3] [ref=e132]
+        - generic [ref=e133]:
+          - generic [ref=e134]:
+            - generic [ref=e135]: 🎯
+            - heading "Quality First" [level=4] [ref=e136]
+            - paragraph [ref=e137]: My background in SDET has instilled a deep commitment to quality, performance, and user experience in everything I build.
+          - generic [ref=e138]:
+            - generic [ref=e139]: 🚀
+            - heading "Full-Stack Focus" [level=4] [ref=e140]
+            - paragraph [ref=e141]: I enjoy working across the entire stack, from database design to user interface, ensuring seamless integration and optimal performance.
+          - generic [ref=e142]:
+            - generic [ref=e143]: 💡
+            - heading "Innovation Driven" [level=4] [ref=e144]
+            - paragraph [ref=e145]: I'm passionate about leveraging new technologies to create innovative solutions that make a real difference for users.
+    - generic [ref=e147]:
+      - generic [ref=e148]:
+        - generic [ref=e149]: My Work
+        - heading "Featured Projects" [level=2] [ref=e151]:
+          - text: Featured
+          - text: Projects
+        - paragraph [ref=e152]: A collection of applications I've built, showcasing my journey from automation testing to full-stack development.
+      - generic [ref=e153]:
+        - generic [ref=e154]:
+          - generic [ref=e155]:
+            - generic [ref=e156]: 💰
+            - generic [ref=e157]: In Progress
+          - heading "AI Personal Finance App" [level=3] [ref=e158]
+          - paragraph [ref=e159]: Comprehensive personal finance management with AI-powered expense categorization, intelligent budgeting, receipt scanning, and financial health reports.
+          - generic [ref=e160]:
+            - generic [ref=e161]: MERN Stack
+            - generic [ref=e162]: AI/ML
+            - generic [ref=e163]: Receipt OCR
+            - generic [ref=e164]: Charts.js
+          - link "Code" [ref=e166] [cursor=pointer]:
+            - /url: https://github.com/AutomationBlog/ai-finance-app
+            - img [ref=e167]
+            - text: Code
+        - generic [ref=e169]:
+          - generic [ref=e170]:
+            - generic [ref=e171]: 🏠
+            - generic [ref=e172]: Completed
+          - heading "Gas Booking System" [level=3] [ref=e173]
+          - paragraph [ref=e174]: Full-stack application for gas cylinder booking with real-time inventory, payment integration, and delivery tracking.
+          - generic [ref=e175]:
+            - generic [ref=e176]: React
+            - generic [ref=e177]: Node.js
+            - generic [ref=e178]: MongoDB
+            - generic [ref=e179]: Stripe
+          - generic [ref=e180]:
+            - link "Code" [ref=e181] [cursor=pointer]:
+              - /url: https://github.com/AutomationBlog/gas-booking-frontend
+              - img [ref=e182]
+              - text: Code
+            - link "Demo" [ref=e184] [cursor=pointer]:
+              - /url: https://gas-booking.netlify.app/
+              - img [ref=e185]
+              - text: Demo
+        - generic [ref=e189]:
+          - generic [ref=e190]:
+            - generic [ref=e191]: 🔐
+            - generic [ref=e192]: Completed
+          - heading "Authentication System" [level=3] [ref=e193]
+          - paragraph [ref=e194]: Secure authentication system with JWT, email verification, password reset, and role-based access control.
+          - generic [ref=e195]:
+            - generic [ref=e196]: React
+            - generic [ref=e197]: Node.js
+            - generic [ref=e198]: JWT
+            - generic [ref=e199]: bcrypt
+            - generic [ref=e200]: MongoDB
+          - generic [ref=e201]:
+            - link "Code" [ref=e202] [cursor=pointer]:
+              - /url: https://github.com/AutomationBlog/auth-frontend
+              - img [ref=e203]
+              - text: Code
+            - link "Demo" [ref=e205] [cursor=pointer]:
+              - /url: https://auth-system.netlify.app/
+              - img [ref=e206]
+              - text: Demo
+        - generic [ref=e210]:
+          - generic [ref=e211]:
+            - generic [ref=e212]: 📝
+            - generic [ref=e213]: Completed
+          - heading "Notes/Blog App" [level=3] [ref=e214]
+          - paragraph [ref=e215]: Feature-rich notes application with rich text editor, categories, search, and cloud synchronization.
+          - generic [ref=e216]:
+            - generic [ref=e217]: MERN Stack
+            - generic [ref=e218]: Rich Text Editor
+            - generic [ref=e219]: Cloud Storage
+          - generic [ref=e220]:
+            - link "Code" [ref=e221] [cursor=pointer]:
+              - /url: https://github.com/AutomationBlog/notes-frontend
+              - img [ref=e222]
+              - text: Code
+            - link "Demo" [ref=e224] [cursor=pointer]:
+              - /url: https://notes-blog.netlify.app/
+              - img [ref=e225]
+              - text: Demo
+        - generic [ref=e229]:
+          - generic [ref=e230]:
+            - generic [ref=e231]: 📄
+            - generic [ref=e232]: Completed
+          - heading "Invoice Generator" [level=3] [ref=e233]
+          - paragraph [ref=e234]: Generate, manage, and download invoices as PDF with email notifications and full invoice lifecycle management.
+          - generic [ref=e235]:
+            - generic [ref=e236]: React
+            - generic [ref=e237]: Node.js
+            - generic [ref=e238]: PDF
+            - generic [ref=e239]: Nodemailer
+            - generic [ref=e240]: MongoDB
+          - generic [ref=e241]:
+            - link "Code" [ref=e242] [cursor=pointer]:
+              - /url: https://github.com/AutomationBlog/invoice_frontend
+              - img [ref=e243]
+              - text: Code
+            - link "Demo" [ref=e245] [cursor=pointer]:
+              - /url: https://invoice-blog.netlify.app/
+              - img [ref=e246]
+              - text: Demo
+        - generic [ref=e250]:
+          - generic [ref=e251]:
+            - generic [ref=e252]: 🧪
+            - generic [ref=e253]: Completed
+          - heading "Playwright E2E Framework" [level=3] [ref=e254]
+          - paragraph [ref=e255]: Production-ready E2E automation framework built with Playwright, Cucumber BDD, and TypeScript including CI/CD integration.
+          - generic [ref=e256]:
+            - generic [ref=e257]: Playwright
+            - generic [ref=e258]: TypeScript
+            - generic [ref=e259]: Cucumber
+            - generic [ref=e260]: BDD
+            - generic [ref=e261]: CI/CD
+          - link "Code" [ref=e263] [cursor=pointer]:
+            - /url: https://github.com/AutomationBlog/Playwright_Automation_Framework
+            - img [ref=e264]
+            - text: Code
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - generic [ref=e269]: My Journey
+        - heading "Learning Roadmap" [level=2] [ref=e271]:
+          - text: Learning
+          - text: Roadmap
+        - paragraph [ref=e272]: My progression from automation testing to full-stack development, with clear milestones and upcoming goals.
+      - generic [ref=e275]:
+        - generic [ref=e276]:
+          - generic [ref=e278]: 🏗️
+          - generic [ref=e279]:
+            - generic [ref=e280]:
+              - heading "Foundation" [level=3] [ref=e281]
+              - generic [ref=e282]: Completed
+            - paragraph [ref=e283]: Built solid foundations in modern JavaScript, React ecosystem, and backend development.
+            - generic [ref=e284]:
+              - generic [ref=e285]:
+                - generic [ref=e286]: JavaScript ES6+
+                - generic [ref=e287]: Closures, event loop, async/await, Promises
+              - generic [ref=e288]:
+                - generic [ref=e289]: React
+                - generic [ref=e290]: Hooks, Context API, React Router, React Query
+              - generic [ref=e291]:
+                - generic [ref=e292]: Node.js + Express
+                - generic [ref=e293]: REST APIs, middleware, JWT auth
+              - generic [ref=e294]:
+                - generic [ref=e295]: MongoDB
+                - generic [ref=e296]: Mongoose ODM, aggregation, Atlas cloud
+        - generic [ref=e297]:
+          - generic [ref=e299]: 🚀
+          - generic [ref=e300]:
+            - generic [ref=e301]:
+              - heading "Advanced Skills" [level=3] [ref=e302]
+              - generic [ref=e303]: In Progress
+            - paragraph [ref=e304]: Deepening expertise in TypeScript and Next.js while building production-ready applications.
+            - generic [ref=e305]:
+              - generic [ref=e306]:
+                - generic [ref=e307]: TypeScript
+                - generic [ref=e308]: Types, interfaces, generics, utility types, TS with React & Node
+              - generic [ref=e309]:
+                - generic [ref=e310]: Next.js
+                - generic [ref=e311]: App Router, SSR, SSG, ISR, API routes, NextAuth, Vercel deploy
+        - generic [ref=e312]:
+          - generic [ref=e314]: 📱
+          - generic [ref=e315]:
+            - generic [ref=e316]:
+              - heading "Multi-Platform Development" [level=3] [ref=e317]
+              - generic [ref=e318]: Planned
+            - paragraph [ref=e319]: Expanding into mobile and browser extension development to create comprehensive user experiences.
+            - generic [ref=e320]:
+              - generic [ref=e321]:
+                - generic [ref=e322]: React Native
+                - generic [ref=e323]: Expo, navigation, device APIs, AsyncStorage, mobile deployment
+              - generic [ref=e324]:
+                - generic [ref=e325]: WXT Extensions
+                - generic [ref=e326]: Browser extensions with React + TypeScript, content scripts, Manifest V3
+        - generic [ref=e327]:
+          - generic [ref=e329]: 💰
+          - generic [ref=e330]:
+            - generic [ref=e331]:
+              - heading "Flagship Project" [level=3] [ref=e332]
+              - generic [ref=e333]: Next Milestone
+            - paragraph [ref=e334]: Building a comprehensive AI-powered personal finance application across multiple platforms.
+            - generic [ref=e336]:
+              - generic [ref=e337]: AI Finance App
+              - generic [ref=e338]: MERN + Next.js + React Native + WXT + Claude AI
+            - generic [ref=e339]:
+              - generic [ref=e340]:
+                - generic [ref=e341]: 🚀
+                - generic [ref=e342]:
+                  - generic [ref=e343]: AI Personal Finance App
+                  - generic [ref=e344]: Comprehensive finance management with AI features
+              - paragraph [ref=e345]: A complete personal finance management system with AI-powered expense categorization, intelligent budgeting, receipt scanning, financial health reports, and cross-platform synchronization.
+    - generic [ref=e347]:
+      - generic [ref=e348]:
+        - generic [ref=e349]: Let's Connect
+        - heading "Ready to Build Together" [level=2] [ref=e351]:
+          - text: Ready to
+          - text: Build Together
+        - paragraph [ref=e352]: Open to full stack development roles, collaborations, and freelance projects. Let's connect and create something amazing!
+      - generic [ref=e353]:
+        - link "WhatsApp +919043365282" [ref=e354] [cursor=pointer]:
+          - /url: https://wa.me/919043365282
+          - img [ref=e357]
+          - generic [ref=e359]:
+            - generic [ref=e360]: WhatsApp
+            - generic [ref=e361]: "+919043365282"
+        - link "Email alwsan24@gmail.com" [ref=e362] [cursor=pointer]:
+          - /url: mailto:alwsan24@gmail.com
+          - img [ref=e365]
+          - generic [ref=e368]:
+            - generic [ref=e369]: Email
+            - generic [ref=e370]: alwsan24@gmail.com
+        - link "GitHub @AutomationBlog" [ref=e371] [cursor=pointer]:
+          - /url: https://github.com/AutomationBlog
+          - img [ref=e374]
+          - generic [ref=e376]:
+            - generic [ref=e377]: GitHub
+            - generic [ref=e378]: "@AutomationBlog"
+        - link "Resume View Resume" [ref=e379] [cursor=pointer]:
+          - /url: /assets/resume/version1/Alwin_SDET.html
+          - img [ref=e382]
+          - generic [ref=e385]:
+            - generic [ref=e386]: Resume
+            - generic [ref=e387]: View Resume
+  - contentinfo [ref=e388]:
+    - paragraph [ref=e389]: Designed & Built by Alwin Santhosh S · SDET → MERN FSD · 2026
