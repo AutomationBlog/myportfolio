@@ -80,7 +80,7 @@ export default function Contact() {
               rel={
                 contact.target === "_blank" ? "noopener noreferrer" : undefined
               }
-              className="flex items-center gap-3 bg-surface border border-border rounded-2xl sm:rounded-3xl p-4 sm:p-5 hover:border-accent/50 hover:shadow-lg hover:shadow-accent/10 hover:-translate-y-1 transition-all duration-300 group"
+              className="flex items-center gap-3 bg-surface border border-border rounded-2xl sm:rounded-3xl p-4 sm:p-5 hover:border-accent/50 hover:shadow-lg hover:shadow-accent/10 hover:-translate-y-1 transition-all duration-300 group min-h-[80px] sm:min-h-[100px]"
             >
               <div className="flex-shrink-0 w-12 sm:w-14 h-12 sm:h-14 bg-accent/10 rounded-xl flex items-center justify-center group-hover:bg-accent/20 transition-colors">
                 <div className="text-accent">{iconMap[contact.icon]}</div>
@@ -88,9 +88,6 @@ export default function Contact() {
               <div className="flex-1 min-w-0">
                 <div className="text-xs sm:text-sm text-text2 group-hover:text-accent transition-colors">
                   {contact.name}
-                </div>
-                <div className="text-sm sm:text-base font-semibold text-text group-hover:text-accent transition-colors truncate">
-                  {contact.value}
                 </div>
               </div>
             </a>
