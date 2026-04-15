@@ -5,7 +5,7 @@ const resumeData = {
     role: "Senior QA Engineer",
     email: "alwsan24@gmail.com",
     phone: "+91 - 90 4336 5282",
-    portfolio: "https://automationblog.github.io/myprofile",
+    portfolio: "https://automationblog.github.io/myportfolio/",
     linkedin: "https://linkedin.com/in/alwin-santhosh-3190ba12b",
   },
   profile:
