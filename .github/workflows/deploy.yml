@@ -28,6 +28,10 @@ jobs:
         run: npm ci
 
       - name: Build project
+        env:
+          NODE_ENV: production
+          NEXT_PUBLIC_BASE_PATH_PROD: /myportfolio
+          NEXT_PUBLIC_RESUME_PATH: /assets/resume/version1/Alwin_SDET.html
         run: npm run build
 
       - name: Upload artifact
