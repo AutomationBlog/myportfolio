@@ -63,13 +63,14 @@ export default function Contact() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4 md:gap-6">
         {contactData.contacts.map((contact) => {
-          // Handle basePath for static assets in production vs development
+          const basePath =
+            process.env.NODE_ENV === "production"
+              ? process.env.NEXT_PUBLIC_BASE_PATH_PROD
+              : process.env.NEXT_PUBLIC_BASE_PATH_LOCAL;
+
           const href =
             contact.href && contact.href.startsWith("/assets/")
-              ? typeof window !== "undefined" &&
-                window.location.pathname.startsWith("/myportfolio")
-                ? `/myportfolio${contact.href}`
-                : contact.href
+              ? `${basePath || ""}${contact.href}`
               : contact.href;
 
           return (

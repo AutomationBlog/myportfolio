@@ -83,13 +83,14 @@ export default function Hero() {
         {/* CTA buttons with new design */}
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
           {heroData.cta.map((button) => {
-            // Handle basePath for static assets in production vs development
+            const basePath =
+              process.env.NODE_ENV === "production"
+                ? process.env.NEXT_PUBLIC_BASE_PATH_PROD
+                : process.env.NEXT_PUBLIC_BASE_PATH_LOCAL;
+
             const href =
               button.href && button.href.startsWith("/assets/")
-                ? typeof window !== "undefined" &&
-                  window.location.pathname.startsWith("/myportfolio")
-                  ? `/myportfolio${button.href}`
-                  : button.href
+                ? `${basePath || ""}${button.href}`
                 : button.href;
 
             return (
